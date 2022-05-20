@@ -1,0 +1,282 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(static/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(Roboto/Roboto-Medium.ttf);
+}
+.container-fluid1{
+    background-image: url(background.jpg); background-size: cover; height: 1000px;
+}
+.container1{
+    height:48rem; 
+}
+.row-hero{
+    margin-left: -20px;
+}
+.row1{
+    line-height: 100px;
+}
+.page-author{
+    font-family: Raleway-Bold;font-size: 7rem; font-weight: bold; color: white; text-align: center; margin-top: 300px;
+}
+.hr-base{
+    color: white; font-family: Roboto; font-size: 2.3rem; text-align: center;
+}
+.image{
+    margin-top: 3.15rem;
+}
+.aside{
+    margin-top: 8.45rem;
+}
+.aside-t{
+    font-family: Roboto-Bold;
+}
+.aside-p{
+    font-family: Roboto;
+}
+.btnx{
+    width: 12.5rem; height: 2.5rem; border-radius: 0rem; background-color: #ff2b4a; font-family: Roboto; margin-bottom: 20px;
+}
+.container-fluid2{
+    background-color: #f6f6f6; height: 39rem;
+}
+.row2{
+    line-height: 3.13rem; align-items: center;
+}
+.skills-t{
+    text-align: center; margin-top: 2.5rem; font-size: 2.08rem; font-family: Raleway-Bold;
+}
+.skills-t-sub{
+    text-align: center; font-size: medium; font-family: Roboto-Medium;
+}
+.skills{
+    justify-content: center; margin-top: 1.25rem;
+}
+.skills-box1{
+    height: 10.63rem; background-color: #10c6fc; text-align: center;
+}
+.skills-box2{
+    height: 10.63rem; background-color: #835aeb; text-align: center;
+}
+.skills-box3{
+    height: 10.63rem; background-color: #002453; text-align: center;
+}
+.skills-box4{
+    height: 10.63rem; background-color: #ff2b4a; text-align: center; 
+}
+.img{
+    margin-top: 2.5rem;
+}
+.img-t{
+    color: white; font-size: medium; font-family: Raleway-Bold;
+}
+.row3{
+    justify-content: center;
+}
+.card{
+    height:700px; background-color: #52667a; margin-top: 160px; border: none; border-radius: 0;
+}
+.card-container{
+    margin: 3.75rem 0 0 1.25rem;
+}
+.card-t{
+    font-family: Raleway-Bold; font-size: 1.25rem; color: white;
+}
+.card-line-height{
+    line-height: 1.88rem;
+}
+.card-t-sub{
+    font-family: Roboto-Bold; font-size: medium; color: rgba(255, 255, 255, 0.8);
+}
+.card-t-date{
+    font-family: Roboto-Medium; font-size: medium; color: rgba(255, 255, 255, 0.6);
+}
+.card-t-text{
+    font-family: Roboto; font-size: medium; color: rgba(255, 255, 255, 0.5);
+}
+.container-fluid3{
+    background-color: #f6f6f6; height: 60rem;
+}
+.row4{
+    line-height: 50px;
+}
+.container-fluid4{
+    background-color: #64cbc0; height: 600px;
+}
+.blockquotes{
+    margin-top: 75px;
+}
+.quotes{
+    font-family: Roboto; margin-top: 30px;
+}
+.author{
+    font-family: Roboto-Bold;
+}
+.author-sub{
+    font-family: Roboto; font-size: medium;
+}
+.container_fluid1{
+    background-image: url(background.jpg); background-size: cover; height: 1600px;
+}
+.container2{
+    height: 55rem;
+}
+.form{
+    height:43.75rem; background-color: #52667a; margin-top: 4.5rem;
+}
+.form-t{
+    margin: 3.13rem 0 0 1.56rem; font-family: Raleway-Bold; color: white; font-size: 1.25rem;
+}
+.input{
+    background-color: #52667a; opacity: 50%; border-radius: 0; width: 25rem; margin-left: 1.56rem;
+}
+.text-area{
+    background-color: #52667a; opacity: 50%; border-radius: 0; height: 12.5rem; width: 25rem; margin-left: 1.56rem;
+}
+.btnxx{
+    width: 9.38rem; height: 2.5rem; border-radius: 0; background-color: #ff2b4a; font-family: Roboto; margin: 1.88rem 0 0 17rem;
+}
+.info1{
+    height:12.5rem; background-color: #52667a; 
+}
+.info2{
+    height:12.5rem; background-color: #52667a; margin-top: 98px;
+}
+.info3{
+    height:12.5rem; background-color: #52667a; margin-top: 50px;
+}
+.info-container{
+    margin: 3.13rem 0 0 1.25rem;
+}
+.info-t{
+    font-family: Raleway-Bold; color: white; font-size: 1.25rem;
+}
+.info-t-sub{
+    font-family: Roboto; font-size: 0.88rem; color: rgba(255, 255, 255, 0.5);
+}
+.container-fluid5{
+    background-color: black;
+}
+.img-footer{
+    text-align: center;
+}
+.footer-t{
+    font-family: Roboto; font-size: medium; text-align: center;
+}
+.container3{
+    align-items: center;
+}
+
+@media screen and (min-width:576px) {
+    .container-fluid3{
+        height: 37rem;
+    }
+    .container-fluid2{
+        height: 25rem;
+    }
+    .container_fluid1{
+        height: 800px;
+    }  
+}
+@media screen and (min-width:768px) {
+    .card{
+        height: 500px;
+        margin-top: 240px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .input, .text-area{
+        width: 41rem;
+    }
+    .btnxx{
+        margin-left: 33rem;
+    }
+    .info3{
+        margin-top: -30px;
+    }
+    .info2{
+        margin-top: 0;
+    }
+    .form{
+        margin-top: 8.5rem;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .input, .text-area{
+        width: 29rem;
+    }
+    .btnxx{
+        margin-left: 21.2rem;
+    }
+}
+@media screen and (min-width:1200px){
+    .input, .text-area{
+        width: 31rem;
+    }
+    .btnxx{
+        margin-left: 23.2rem;
+    }
+    .page-author{
+        margin-top: 230px;
+    }
+}
+@media screen and (max-width:576px){
+    .card-t{
+        font-size: 1rem; 
+    }
+    .card-t-sub, .card-t-date, .card-t-text{
+        font-size: small;
+    }
+    .input, .text-area{
+        width: 21rem;
+    }
+    .page-author{
+        font-size: 5rem;
+    }
+    .btnxx{
+        margin-left: 13.1rem;
+    }
+}
+@media screen and (max-width:992px){
+    .image{
+        display: none;
+    }
+    .aside-t{
+        margin-top: -100px;
+    }
+    .skills-box3, .skills-box4{
+        margin-top: 10px;
+    }
+    .page-author{
+        margin-top: 100px;
+    } 
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .container-fluid3{
+        height: 58rem;
+    }
+    .container-fluid2{
+        height: 35rem;
+    }
+    .container_fluid1{
+        height: 1600px;
+    } 
+}
+@media screen and (min-width:992px){
+    .form{
+        margin-top: 3.2rem;
+    }
+}
